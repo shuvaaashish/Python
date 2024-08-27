@@ -20,6 +20,6 @@ for i in range(1,a+1):
     people.append(b)
 for person in people:
     if flight.add_passanger(person):
-        print(f'Added {person} to the flight successully')
+        print(f'Added {person} to the flight successully!!')
     else:
         print(f'No available seats for {person}')
